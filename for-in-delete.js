@@ -152,6 +152,8 @@ for (let key in deleteTheBigNumbers) {
   }
 }
 
+console.log(deleteTheBigNumbers);
+
 ////////// PROBLEM 7 //////////
 
 /*
