@@ -142,3 +142,11 @@ let bobsTotal = purchases.reduce(function callback(runningTotal, curElement, cur
 // }).reduce(function(runningTotal, curElement) {
 //   return runningTotal + curElement;
 // });
+
+// let bobsTotal = purchases.reduce((sum, purchase) => {
+//   if (purchase.owner === "Bob") {
+//     return purchase.price + sum;
+//   } else {
+//     return sum;
+//   }
+// }, 0);
